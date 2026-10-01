@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя первая веб-страница</title>
+    <style>
+        /* Оформление фона и основных стилей страницы */
+        body {
+            background-color: #f0f4f8; /* Мягкий светлый фон */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Контейнер для логической структуры и центрирования содержимого */
+        .container {
+            background-color: #ffffff; /* Белый фон карточки */
+            max-width: 650px;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Заголовки */
+        h1 {
+            color: #1a5276;
+            text-align: center;
+            border-bottom: 2px solid #aed6f1;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            color: #2e4053;
+            margin-top: 20px;
+        }
+
+        /* Текстовые абзацы */
+        p {
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+        /* Выделение текста */
+        b, strong {
+            color: #117a65;
+        }
+
+        i, em {
+            color: #7d3c98;
+        }
+
+        /* Изображение */
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            display: block;
+            margin: 20px auto;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Подпись под фото */
+        .caption {
+            text-align: center;
+            font-size: 14px;
+            color: #666666;
+            margin-top: -10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Главный заголовок -->
+        <h1>Добро пожаловать на мою веб-страницу!</h1>
+
+        <!-- Первый абзац с элементами форматирования и переносом строки -->
+        <p>
+            Привет! Это моя первая веб-страница, созданная в рамках практической работы.<br>
+            Здесь я учился работать с версткой: применять <b>жирный шрифт</b>, 
+            <i>курсивное выделение</i> и <u>подчеркивание текста</u>.
+        </p>
+
+        <!-- Подзаголовок (второй уровень) -->
+        <h2>Мое увлечение — Веб-разработка</h2>
+
+        <!-- Второй абзац -->
+        <p>
+            Изучение HTML и CSS позволяет создавать красивый и структурированный контент. 
+            <strong>Главное правило:</strong> всегда правильно закрывать все теги и соблюдать иерархию элементов!
+        </p>
+
+        <!-- Изображение -->
+        <img src="https://picsum.photos/600/300" alt="Красивый пейзаж для демонстрации">
+        <p class="caption"><i>Рис. 1. Пример графического изображения на странице.</i></p>
+    </div>
+
+</body>
+</html>
